@@ -20,7 +20,19 @@ Most flashes can work in SPI mode 0 and 3, analyzer detects mode automatically o
   - Cypress
   - Issi
 
-# Installation
+# Installation (tested on MacOS 10.14)
+
+```bash
+git clone <saleae_spiflash_project>
+cd <saleae_spiflash_project>
+python3 build_analyzer.py
+```
+
+Launch Logic 1.x and under *Options -> Preferences -> Developer* you will find the *Search this path for analyzer plugins*. Either copy the path or via Browse find the newly create release path. On the other hand, you could create a folder in Documents with the release files and Browse to it instead. 
+
+**Restart** the application to get the new plug-ins installed. 
+
+# Installation (old)
 
 For Windows there are two msi files in prebuilt folder, that will add analyzer to the existing Saleae Logic installation folder.
 
