@@ -32,7 +32,7 @@ Launch Saleae Logic 1.x and under *Options -> Preferences -> Developer* you will
 
 **Restart** the application to get the new plug-ins installed. 
 
-* N.B. Folders lib and include take from [https://github.com/saleae/AnalyzerSDK](https://github.com/saleae/AnalyzerSDK). 
+* N.B. Folders *lib* and *include* take from [https://github.com/saleae/AnalyzerSDK](https://github.com/saleae/AnalyzerSDK). 
 
 # Installation (old)
 
