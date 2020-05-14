@@ -28,7 +28,7 @@ cd <saleae_spiflash_project>
 python3 build_analyzer.py
 ```
 
-Launch Saleae Logic 1.x and under *Options -> Preferences -> Developer* you will find the *Search this path for analyzer plugins*. Either copy the path or via Browse find the newly create release path. On the other hand, you could create a folder in Documents with the release files and Browse to it instead. 
+Launch Saleae Logic 1.x and under *Options -> Preferences -> Developer* you will find the *Search this path for analyzer plugins*. Either copy the path or via *Browse* find the newly create release path. On the other hand, you could create a folder in Documents with the release files and Browse to it instead. 
 
 **Restart** the application to get the new plug-ins installed. 
 
