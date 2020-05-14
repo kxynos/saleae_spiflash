@@ -38,8 +38,8 @@ cpp_files = glob.glob( "*.cpp" );
 os.chdir( ".." )
 
 #specify the search paths/dependencies/options for gcc
-include_paths = [ "../include" ]
-link_paths = [ "../lib" ]
+include_paths = [ "./include" ]
+link_paths = [ "./lib" ]
 link_dependencies = [ "-lAnalyzer" ] #refers to libAnalyzer.dylib or libAnalyzer.so
 # for Linux64 assume that Logic is also 64bit
 if platform.system().lower() == "linux" and platform.architecture()[0] == '64bit':
